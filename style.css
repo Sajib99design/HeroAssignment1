@@ -80,7 +80,7 @@ label {
 
 .btn {
   color: #FFF;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   padding: 12px 36px;
   border-radius: 10px;
@@ -112,4 +112,31 @@ nav {
   font-style: normal;
   font-weight: 700;
   padding-bottom: 2.25rem;
+}
+
+/* action area  */
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7.25rem 0;
+}
+
+.action-left h3 {
+  color: #252432;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.action-left p {
+  color: #8c8b92;
+  font-size: 1.5rem;
+}
+
+.action-right img {
+  border-radius: 3.125rem;
+  -webkit-border-radius: 3.125rem;
+  -moz-border-radius: 3.125rem;
+  -ms-border-radius: 3.125rem;
+  -o-border-radius: 3.125rem;
 }
