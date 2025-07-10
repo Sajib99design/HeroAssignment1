@@ -198,5 +198,36 @@ nav {
 }
 
 .ready-img img {
+  margin: 0 auto;
+  display: block;
   border-radius: 48px;
+}
+
+/* footer area start  */
+.footer-area {
+  text-align: center;
+  padding: 6.25rem 0;
+}
+
+.footer-content h2 {
+  color: var(--blue);
+  font-family: Inter;
+  font-size: 6.25rem;
+  font-weight: 900;
+}
+
+.footer-content p {
+  color: var(--lightGray);
+  font-family: Inter;
+  padding: 1rem 1.375rem;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer-nav ul li a {
+  color: #8987A1;
 }
