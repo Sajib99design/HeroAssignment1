@@ -12,7 +12,7 @@
   --white: #fff;
   --black: #000;
   --gray: #1E1E1E;
-  --lightGray: #5E5E5E;
+  --lightGray: #8c8b92;
   --blue: #4E47FF;
 }
 
@@ -173,4 +173,30 @@ nav {
   font-family: Inter;
   font-size: 20px;
   color: #8c8b92;
+}
+
+/* ready area start  */
+.ready-content {
+  text-align: center;
+}
+
+.ready-content h3 {
+  color: var(--black);
+  font-size: 3.125rem;
+  ;
+  font-weight: 700;
+}
+
+.ready-content p {
+  color: var(--lightGray);
+  padding: 1rem 0;
+}
+
+.ready-content a {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.ready-img img {
+  border-radius: 48px;
 }
