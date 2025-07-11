@@ -21,7 +21,7 @@
 /*==BASIC-SETUP==*/
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #000;
   background: #F5F8FF;
@@ -76,7 +76,7 @@ label {
 
 .logo a {
   font-family: Inter;
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 900;
 }
 
@@ -84,17 +84,34 @@ label {
   color: #FFF;
   font-size: 1rem;
   font-weight: 700;
-  padding: 12px 36px;
+  padding: .75rem 2.25rem;
   border-radius: 10px;
   background: var(--blue);
   display: inline-block;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.btn:hover {
+  background: var(--gray);
+  color: var(--white);
+}
+
+.header-area {
+  overflow: hidden;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 3.125rem;
+  position: absolute;
+  max-width: 1140px;
+  width: 100%;
 }
 
 /* hero area  */
@@ -109,7 +126,7 @@ nav {
 .hero-title {
   color: #252432;
   text-align: center;
-  font-size: 65px;
+  font-size: 4.0625rem;
   font-style: normal;
   font-weight: 700;
   padding-bottom: 2.25rem;
@@ -125,7 +142,7 @@ nav {
 
 .action-left h3 {
   color: #252432;
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: 700;
 }
 
@@ -174,7 +191,7 @@ nav {
 
 .user-item span {
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #8c8b92;
 }
 
@@ -201,6 +218,10 @@ nav {
   padding: 1.5rem;
   background: var(--white);
   border-radius: 14px;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
 }
 
 .testimonial-item h4 {
@@ -263,12 +284,16 @@ nav {
   margin: 0 auto;
   display: block;
   border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
 }
 
 /* form area  */
 .form-left h2 {
   color: var(--black);
-  font-size: 97px;
+  font-size: 6.0625rem;
   font-weight: 700;
 }
 
@@ -304,6 +329,12 @@ textarea {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.form-right input:focus,
+.form-right textarea:focus {
+  background: var(--lightGray3);
+  border: 1px solid var(--blue)
 }
 
 .form-right button {
@@ -343,4 +374,8 @@ textarea {
 
 .footer-nav ul li a {
   color: #8987A1;
+}
+
+.footer-nav ul li a:hover {
+  color: var(--blue);
 }

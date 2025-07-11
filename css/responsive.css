@@ -1,26 +1,85 @@
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
-
-
-
-}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {}
 
 /* FOR-LG-START */
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-
-
-}
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
 
 /*FOR-TABLATE-START*/
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
-}
+@media screen and (min-width: 768px) and (max-width: 991px) {}
 
 /*FOR-MOBIL-START*/
 @media screen and (max-width: 767px) {
+    :root {
+        font-size: 10px;
+    }
 
+    section,
+    footer,
+    header {
+        padding: 0 1rem;
+        overflow: hidden;
+    }
+
+    nav {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+
+    .hero-area {
+        padding: 8rem;
+    }
+
+    .action-left {
+        text-align: center;
+    }
+
+    .action-right img {
+        width: 100%;
+        padding-top: 12px;
+    }
+
+    .action {
+        padding: 3rem 0;
+    }
+
+    .testimonial-area {
+        margin-top: 3rem;
+    }
+
+    .testimonial-item {
+        text-align: center;
+    }
+
+    .testi-profile {
+        justify-content: center;
+    }
+
+    .ready-area {
+        margin: 0;
+        padding: 3rem 1rem;
+    }
+
+    .form-left h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .form {
+        padding: 3rem 0;
+    }
+
+    .footer-area {
+        padding: 3rem 0;
+    }
+
+    .footer-content h2 {
+        font-size: 4rem;
+    }
 
 }
 
-@media screen and (max-width: 500px) {
-	
-}
+@media screen and (max-width: 500px) {}
